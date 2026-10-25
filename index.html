@@ -98,52 +98,97 @@
         </section>
 
         <!-- Section 2 - About me -->
-        <section id="aboutme"
-            class="flex flex-col lg:flex-row items-center justify-center gap-8 lg:gap-24 px-6 md:px-16 lg:px-[90px] mt-100 lg:mt-60">
-
-            <h2 class="font-zelda text-center text-[80px]">About Me</h2>
+        <section id="aboutme" class="flex flex-col lg:flex-row
+        items-center justify-center gap-8 lg:gap-24 px-6 md:px-16 lg:px-[90px] mt-100
+        lg:mt-60">
             <div class="order-1 lg:order-2 shrink-0">
                 <div class="relative w-[240px] md:w-[280px] lg:w-[340px] aspect-[700/1040]">
-                    <img src="imagess/MAULANA.png" alt="Kartu profil"
-                        class="absolute inset-0 w-full h-full z-10 pointer-events-none" />
+                    <img src="imagess/fotoku/MAULANA.png" alt="Kartu profil" class="absolute inset-0
+                    w-full h-full z-10 pointer-events-none" />
+                    <div class="absolute inset-0 z-20 rotate-[1deg]">
+                        <a href="#hero" class="absolute left-1/2 -translate-x-1/2 top-[85.5%] w-[50.7%] h-[8.4%] flex items-center justify-center
+                            bg-[linear-gradient(to_bottom,#F36F41_0%,#F39241_50%,#F36F41_50%,#F39241_100%)]
+                            rounded-[8px] border-[#F3B641] border-[1px] outline-[#592918] outline-[1px]
+                            drop-shadow-[0_3px_0_#592918] lg:drop-shadow-[0_5px_0_#592918]
+                            transition-all duration-100 hover:brightness-90">
+                            <p class="uppercase text-white text-[0.75rem] md:text-[0.85rem] lg:text-[1.1rem]
+                            leading-none whitespace-nowrap">Lihat Portfolio</p>
+                        </a>
+                    </div>
                 </div>
             </div>
 
-            <p class="px-[100px] text-center text-[32px]">Halo semua aku Maul, aku dari SMA Muhammadiyah 4 Surabaya,
-                aku suka ngoding dan belajar.</p>
+            <div class="order-2 lg:order-1 flex flex-col gap-4 max-w-[560px] text-center lg:text-left">
+                <h2 class="uppercase text-[3.5rem] md:text-[4.5rem] lg:text-[6rem] text-white
+                    [-webkit-text-stroke:1px_#7A3D21] lg:[-webkit-text-stroke:2px_#7A3D21]
+                    text-shadow-[0_5px_0_#7A3D21] lg:text-shadow-[0_10px_0_#7A3D21] leading-none">
+                    ABOUT<span class="hidden lg:inline"> ME</span>
+                </h2>
+
+                <p class="font-times text-[#F9DCB4] text-[1rem] md:text-[1.25rem] lg:text-[1.5rem] leading-snug
+                    text-justify">
+                    Hello! I'm an Information Systems student passionate about designing user-centered digital
+                    experiences and solving real-world problems through thoughtful design, business insights, and
+                    data-driven solutions.
+                </p>
+            </div>
 
         </section>
 
         <!-- Section 3 - My Skills -->
        <section id="myskills" class="flex justify-center mt-100">
-            <h2 class="font-zelda text-center text-[80px]">My Skills</h2>
-            <div class=" relative inset-0 flex flex-col text-left px-15 pt-10 gap-1 text-[#592918]">
-                <img src="imagess/footer/wood_plank.svg" alt="Papan kayu"
-                    class="hidden md:block lg:w-[769.08px] md:w-[500.17px]">
-                <img src="imagess/footer/wood_plank_mobile.svg" alt="Papan kayu" class="block md:hidden w-[25rem]">
-                <h3 class="font-zelda text-[48px]">Aku tertarik dengan mata pelajaran yang ada di sekolah</h3>
-                <ul class="text-[32px] list-inside list-disc">
-                    <li>Matematika</li>
-                    <li>Fisika</li>
-                    <li>Kimia</li>
-                </ul>
+            <div class="flex flex-col text-center gap-4">
+                <h2 class="text-[3.5rem] md:text-[4.5rem] lg:text-[6rem] text-white
+                [-webkit-text-stroke:1px_#7A3D21] lg:[-webkit-text-stroke:2px_#7A3D21]
+                text-shadow-[0_5px_0_#7A3D21] lg:text-shadow-[0_10px_0_#7A3D21] leading-none">
+                    MY SKILLS
+                </h2>
+
+                <div class="relative">
+                    <!-- Laptop dan tablet -->
+                    <img src="imagess/footer/wood_plank.svg" alt="Papan kayu"
+                        class="hidden md:block lg:w-[769.08px] md:w-[500.17px]">
+                    <!-- Mobile -->
+                    <img src="imagess/footer/wood_plank_mobile.svg" alt="Papan kayu"
+                        class="block md:hidden w-[25rem]">
+
+                    <div class="absolute inset-0 flex flex-col text-left px-15 lg:px-20 pt-10 gap-1 text-[#592918]">
+                        <h3 class="text-[2.75rem] md:text-[2.5rem] lg:text-[3.75rem]">Pelajaran Yang Kusuka</h3>
+                        <ul class="font-times list-disc ml-8 text-[1rem] md:text-[1.5rem] lg:text-[2rem]">
+                            <li>Matematika</li>
+                            <li>Inggris</li>
+                            <li>Fisika</li>
+                        </ul>
+
+                        <div class="flex w-full justify-center items-center transition-all duration-100">
+                            <a href="#experience" class="absolute bottom-[40px] md:bottom-[25px] lg:bottom-[50px] px-8 pt-[8px] rounded-[8px]
+                                bg-[linear-gradient(to_bottom,#F36F41_0%,#F39241_50%,#F36F41_50%,#F39241_100%)]
+                                border-[1px] border-[#F3B641] outline-[1px] outline-[#592918]
+                                drop-shadow-[0_5px_0_#592918] hover:brightness-90">
+                                <p class="text-white text-[2rem] md:text-[1.5rem] lg:text-[2.5rem] leading-none">My
+                                    Experience</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
-
         <!-- Section 4 -  My Experience -->
         <section id="Experience" class="mt-100 mb-50">
-  <div class="flex flex-col gap-[1rem] items-center">
-    <h1 class="text-[3.5rem] md:text-[4.5rem] lg:text-[6rem] text-white [-webkit-text-stroke:1px_#7A3D21] lg:[-webkit-text-stroke:2px_#7A3D21] text-shadow-[0_5px_0_#7A3D21] text-center">MY EXPERIENCE</h1>
-    <div class="flex flex-col md:flex-row gap-[1rem]">
-      <img class="w-[22.5rem] lg:w-[30rem]" src="imagess/fotoku/foto1.png" alt="Deskripsi foto 1">
-      <img class="w-[22.5rem] lg:w-[30rem]" src="imagess/fotoku/foto2.png" alt="Deskripsi foto 2">	
-    </div>
-    <div class="flex flex-col md:flex-row gap-[1rem]">
-      <img class="w-[22.5rem] lg:w-[30rem]" src="imagess/fotoku/foto3.png" alt="Deskripsi foto 3">
-      <img class="w-[22.5rem] lg:w-[30rem]" src="imagess/fotoku/foto4.png" alt="Deskripsi foto 4">
-    </div>
-  </div>
-</section>
+            <div class="flex flex-col gap-[1rem] items-center">
+                <h1
+                    class="text-[3.5rem] md:text-[4.5rem] lg:text-[6rem] text-white [-webkit-text-stroke:1px_#7A3D21] lg:[-webkit-text-stroke:2px_#7A3D21] text-shadow-[0_5px_0_#7A3D21] text-center">
+                    MY EXPERIENCE</h1>
+                <div class="flex flex-col md:flex-row gap-[1rem]">
+                    <img class="w-[22.5rem] lg:w-[30rem]" src="imagess/fotoku/foto1.png" alt="Deskripsi foto 1">
+                    <img class="w-[22.5rem] lg:w-[30rem]" src="imagess/fotoku/foto2.png" alt="Deskripsi foto 2">
+                </div>
+                <div class="flex flex-col md:flex-row gap-[1rem]">
+                    <img class="w-[22.5rem] lg:w-[30rem]" src="imagess/fotoku/foto3.png" alt="Deskripsi foto 3">
+                    <img class="w-[22.5rem] lg:w-[30rem]" src="imagess/fotoku/foto4.png" alt="Deskripsi foto 4">
+                </div>
+            </div>
+        </section>
 
         <script src="./js/bgScrollEffect.js"></script>
     </main>
@@ -155,7 +200,7 @@
 
         <!-- FRAME Parent -->
         <div class="flex flex-col sm:w-full h-[440px] md:w-170 lg:w-full md:h-full 
-            bg-[url('/imagess/footer/frame-footer-mobile.png')]
+            bg-[url('/imagess/footer/frame-footer-mobile.png')] 
             md:bg-[url('/imagess/footer/frame-footer-desktop.png')] 
             bg-center bg-contain bg-no-repeat px-6 py-10 lg:px-[20px] items-center justify-center
             lg:bg-[url('images/footer/frame-footer-desktop.png')], lg:w-[1000px], lg:h-full lg:py-10">
